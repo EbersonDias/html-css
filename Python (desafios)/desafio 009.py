@@ -1,0 +1,42 @@
+# Desafio 009
+# Faça um programa que leia um numero inteiro qualquer
+# e mostre na tela a sua tabuada.
+
+n = int(input('digite um numero. '))
+r1 = n * 1
+r2 = (n * 2)
+r3 = (n * 3)
+r4 = (n * 4)
+r5 = (n * 5)
+r6 = (n * 6)
+r7 = (n * 7)
+r8 = (n * 8)
+r9 = (n * 9)
+r10 = (n * 10)
+print('A Tabuada de {} é'.format(n))
+print ('{} x 1 = {}'.format(n,r1))
+print ('{} x 2 = {}'.format(n,r2))
+print ('{} x 3 = {}'.format(n,r3))
+print ('{} x 4 = {}'.format(n,r4))
+print ('{} x 5 = {}'.format(n,r5))
+print ('{} x 6 = {}'.format(n,r6))
+print ('{} x 7 = {}'.format(n,r7))
+print ('{} x 8 = {}'.format(n,r8))
+print ('{} x 9 = {}'.format(n,r9))
+print ('{} x 10 = {}'.format(n,r10))
+
+#Outra forma de ser feito
+n = int(input('Quanto é a Tabuada de '))
+print('A Tabuada de {} é'.format(n))
+print('-'*12)
+print ('{} x {:2} = {}'.format(n, 1, n*1))
+print ('{} x {:2} = {}'.format(n, 2, n*2))
+print ('{} x {:2} = {}'.format(n, 3, n*3))
+print ('{} x {:2} = {}'.format(n, 4, n*4))
+print ('{} x {:2} = {}'.format(n, 5, n*5))
+print ('{} x {:2} = {}'.format(n, 6, n*6))
+print ('{} x {:2} = {}'.format(n, 7, n*7))
+print ('{} x {:2} = {}'.format(n, 8, n*8))
+print ('{} x {:2} = {}'.format(n, 9, n*9))
+print ('{} x {:2} = {}'.format(n, 10, n*10))
+print('-'*12)
