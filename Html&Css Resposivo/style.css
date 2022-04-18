@@ -1,0 +1,92 @@
+
+header{
+    height: 100px; 
+}
+
+nav{
+    background-color: tomato;
+    height: auto;
+    display: flex;
+    width: auto;
+    /*Alinhamento dos textos*/
+    text-align: right;
+    /*Alinhamento Horizontal | flex-start-center-flex-end*/
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+nav a{
+    margin: 40px;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /*Alinhamento Vertical | flex-start-Center-flex-end*/
+    align-items: center;
+}
+
+section div{
+    margin: 3px;
+    display: inline-block;
+    height: 100px;
+    width: 170px;
+    border: 1px solid red;
+}
+
+footer{
+    height: 50px;
+    background-color: grey;
+    color: aliceblue;
+    text-align: center;
+    line-height: 50px;
+}
+/*
+ Resposta Correta:
+
+*{
+    outline: 1px solid #000;
+}
+header,section,nav,footer{
+    display:flex;
+    display:-webkit-flex;
+    display:-moz-flex;
+}
+header{
+    height:150px
+}
+nav{
+    justify-content:flex-end;
+    background:tomato;
+    flex-wrap:wrap;
+}
+nav a{
+    width:150px;
+    height:50px;
+    min-width:150px;
+    max-width:150px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+section{
+    flex-wrap:wrap;
+    justify-content:center;
+}
+section div{
+    border:1px solid #000;
+    flex:1;
+    margin:5px;
+    min-width:200px;
+    max-width:200px;
+    min-height:100px;
+    max-height:100px
+}
+footer{
+    background:#888;
+    color:#fff;
+    align-items:center;
+    justify-content:center;
+}
+*/
